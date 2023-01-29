@@ -22,9 +22,13 @@ Run the program
 #Register Number: 22001903
 
 import sys
+
 fp= open(sys.argv[1])
+
 data=fp.read()
+
 words=data.split()
+
 print("Number of words:",len(words))
 
 ### OUTPUT:
